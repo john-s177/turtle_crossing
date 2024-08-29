@@ -13,7 +13,7 @@ class CarManager:
 
     def create_car(self):
         rand_n = random.randint(1, 6)
-        if rand_n == 1:
+        if rand_n == 1 :
             new_car = Turtle("square")
             new_car.shapesize(stretch_wid=1, stretch_len=2)
             new_car.penup()
